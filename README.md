@@ -2,7 +2,9 @@
 
 A small embedded system that measures air temperature, air humidity and soil moisture, and shows them on a live OLED dashboard. Built on an ESP32 in C++ (Arduino framework).
 
-![Working build](docs/builddry.jpg)(docs/buildwet.jpg)(docs/buildplant.jpg)
+![Working build](docs/builddry.jpg)
+![Working build](docs/buildwet.jpg)
+![Working build](docs/buildplant.jpg)
 
 ## Features
 
