@@ -12,7 +12,7 @@ A small embedded system that measures air temperature, air humidity and soil moi
 - Soil moisture from a capacitive sensor, converted to a 0 to 100 % scale with a DRY / OK / WET label and a progress bar
 - Dew point and absolute humidity calculated from the DHT11 readings (Magnus formula)
 - Raw ADC value and sensor voltage (mV) shown on screen to make calibration easy
-- Readings averaged over several samples to reduce noise; screen refreshes every 3 seconds
+- Readings averaged over several samples to reduce noise; screen refreshes every 1.5 seconds
 - Same data printed to the Serial Monitor for debugging
 
 ## Hardware
