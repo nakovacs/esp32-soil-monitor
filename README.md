@@ -65,8 +65,8 @@ Pin order and labels vary between OLED and DHT11 brands, so check the printed la
 The percentage is only as accurate as the two calibration values at the top of the sketch:
 
 ```cpp
-const int SOIL_DRY = 3000;  // raw reading with the sensor dry, in open air
-const int SOIL_WET = 1300;  // raw reading with the probe in water (up to the line only)
+const int SOIL_DRY = 2400;  // raw reading with the sensor dry, in open air
+const int SOIL_WET = 500;  // raw reading with the probe in water (up to the line only)
 ```
 
 1. Hold the sensor dry in the air and note the **raw** value on screen. Put it in `SOIL_DRY`.
