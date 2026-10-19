@@ -86,9 +86,9 @@ Higher raw values mean drier soil. The values above are starting points. Every s
 ```
 esp32-soil-monitor/
 ├── README.md
-├── soil_monitor/soil_monitor.ino      main sketch
-├── tools/i2c_scanner/i2c_scanner.ino  finds the OLED's I2C address
-├── tools/oled_hello/oled_hello.ino    minimal "Hello!" screen test
+├── soil_monitor/soil_monitor_v3.ino   main sketch
+├── i2c_scanner.ino                    finds the OLED's I2C address
+├── oled_hello.ino                     minimal "Hello!" screen test
 └── docs/                              wiring diagram and photos
 ```
 
