@@ -1,4 +1,4 @@
-// ESP32 soil monitor: ORIGINAL v3 code
+// ESP32 soil monitor: DHT11 + capacitive soil sensor + SSD1306 OLED dashboard.
 // Wiring: OLED SDA=GPIO21, SCL=GPIO22 | DHT11 S=GPIO4 | Soil AOUT=GPIO34
 #include <Wire.h>
 #include <Adafruit_GFX.h>
